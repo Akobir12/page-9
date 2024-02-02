@@ -1,0 +1,1135 @@
+         @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+         * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             list-style: none;
+             text-decoration: none;
+             font-family: Rubik;
+         }
+         
+         .big-box {
+             /* background-color: #bac6e1; */
+             width: 1400px;
+             height: 7500px;
+             margin: 0 auto;
+         }
+         
+         .container {
+             width: 940px;
+             height: 7500px;
+             margin: 0 auto;
+         }
+         /* Hero start */
+         
+         .box-hero {
+             margin-top: 100px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .hero-left {
+             margin-top: 100px;
+             width: 390px;
+             height: 500px;
+         }
+         
+         .hero-right {
+             margin-right: -60px;
+             position: relative;
+             display: flex;
+         }
+         
+         .img-margin-230px {
+             z-index: 1;
+             margin-right: -163px;
+         }
+         
+         .img-left {
+             margin-top: 80px;
+             margin-right: -100px;
+         }
+         
+         .hero-left a {
+             font: 500 12px/20px Rubik;
+             color: #95A1BB;
+             letter-spacing: 2px;
+             margin-bottom: 20px;
+         }
+         
+         .hero-left h1 {
+             font: 500 58px/68px Rubik;
+             color: #363940;
+             margin-bottom: 30px;
+         }
+         
+         .hero-left p {
+             width: 380px;
+             height: 66px;
+             font: 400 14px/22px Rubik;
+             color: #95A1BB;
+         }
+         
+         .btn {
+             margin-top: 40px;
+             cursor: pointer;
+             transition: 0.5s;
+             margin-right: 20px;
+             padding: 8px;
+             width: 166px;
+             height: 46px;
+             border: 0;
+             border-radius: 5px;
+             background-color: #6E38F7;
+             color: #fff;
+         }
+         
+         .btn:hover {
+             background-color: #fff;
+             color: #6E38F7;
+             border: 1px solid #6E38F7;
+         }
+         
+         .btn i {
+             margin: 5px;
+             font-size: 20px;
+             float: left;
+         }
+         
+         .box-hero-comment {
+             left: -60px;
+             top: 120px;
+             z-index: 1;
+             position: absolute;
+             padding: 20px;
+             width: 220px;
+             height: 111px;
+             border-radius: 4px;
+             border: none;
+             color: #fff;
+             background-color: #95a1bb;
+         }
+         
+         .box-hero-comment h6 {
+             font: 500 18px/22px Rubik;
+             margin-bottom: 5px;
+         }
+         
+         .box-hero-comment p {
+             font: 400 14px/22px Rubik;
+         }
+         
+         .box-hero-comment img {
+             margin-bottom: -5px;
+             margin-left: -32px;
+         }
+         
+         .box-hero-comment-2 {
+             position: relative;
+             z-index: 1;
+             top: 398px;
+             left: 260px;
+             position: absolute;
+             padding: 20px;
+             width: 220px;
+             height: 111px;
+             border-radius: 4px;
+             border: none;
+             color: #fff;
+             background-color: #95a1bb;
+         }
+         
+         .box-hero-comment-2 h6 {
+             font: 500 18px/22px Rubik;
+             margin-bottom: 5px;
+         }
+         
+         .box-hero-comment-2 img {
+             position: absolute;
+             right: -12px;
+             bottom: 0px;
+         }
+         /* Hero end */
+         /* Features start */
+         
+         .box-features {
+             margin-top: 100px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .box-features-title {
+             margin-top: 100px;
+         }
+         
+         .box-features-title h1 {
+             font: 500 24px/24px Rubik;
+             color: #363940;
+             margin-bottom: 40px;
+         }
+         
+         .box-features-img {
+             margin-right: -230px;
+         }
+         
+         .box-features-1 {
+             margin-bottom: 30px;
+             margin-right: 80px;
+             width: 380px;
+             height: 54px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .box-features-1 i {
+             margin-right: 32px;
+             font-size: 48px;
+             color: #6E38F7;
+         }
+         
+         .box-features-1 h6 {
+             font: 400 18px/22px Rubik;
+             color: #363940;
+             margin-bottom: 6px;
+         }
+         
+         .box-features-1 p {
+             width: 400px;
+             font: 400 14px/22px Rubik;
+             color: #95A1BB;
+         }
+         /* Features end */
+         /* Call to action start */
+         
+         .box-cal-to-action {
+             display: flex;
+             justify-content: space-between;
+             margin-top: 100px;
+         }
+         
+         .box-cta {
+             padding: 30px;
+             width: 300px;
+             height: 391px;
+             border-radius: 5px;
+             border: 1px solid #E1E5EE;
+             text-align: center;
+         }
+         
+         .box-cta i {
+             font-size: 48px;
+             margin: 10px 0px 20px 0px;
+         }
+         
+         .box-cta h3 {
+             width: 240px;
+             height: 56px;
+             margin-top: 30px;
+             font: 500 24px/28px Rubik;
+             color: #363940;
+         }
+         
+         .box-cta p {
+             font: 400 16px/22px Rbuik;
+             color: #95A1BB;
+             margin: 20px 0px 30px 0px;
+         }
+         
+         .btn-cta {
+             transition: all 0.5s;
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             border: 1px solid #6E38F7;
+             border-radius: 5px;
+             background-color: #6E38F7;
+             color: #fff;
+             width: 157px;
+             height: 46px;
+         }
+         
+         .btn-cta:hover {
+             color: #6E38F7;
+             background-color: #fff;
+         }
+         
+         .btn-2 {
+             transition: all 0.5s;
+             width: 157px;
+             height: 46px;
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             border-radius: 5px;
+             color: #6E38F7;
+             background-color: #fff;
+             border: 1px solid #6E38F7;
+         }
+         
+         .btn-2:hover {
+             background-color: #6E38F7;
+             color: #fff;
+             border-color: #6E38F7;
+         }
+         
+         .btn-3 {
+             transition: all 0.5s;
+             width: 157px;
+             height: 46px;
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             border-radius: 5px;
+             color: #95A1BB;
+             background-color: #fff;
+             border: 1px solid #95A1BB;
+         }
+         
+         .btn-3:hover {
+             background-color: #95A1BB;
+             color: #fff;
+         }
+         /* Call to action end */
+         /* Testimonials start */
+         
+         .testimonials h1 {
+             text-align: center;
+             margin: 100px 0px 50px 0px;
+             font: 500 36px/43px Rubik;
+             color: #363940;
+         }
+         
+         .testimonials-2 {
+             display: flex;
+             justify-content: space-between;
+             flex-wrap: wrap;
+         }
+         
+         .testimonials-3 {
+             margin-bottom: 40px;
+             display: flex;
+             justify-content: space-between;
+             width: 460px;
+             height: 155px;
+         }
+         
+         .testimonials-3 img {
+             margin-right: 30px;
+         }
+         
+         .testimonials-3 h5 {
+             font: 500 18px/22px Rubik;
+             color: #363940;
+             margin-bottom: 5px;
+         }
+         
+         .testimonials-3 a {
+             letter-spacing: 2px;
+             text-transform: uppercase;
+             font: 500 12px/20px Rubik;
+             color: #95A1BB;
+         }
+         
+         .testimonials-3 p {
+             width: 366px;
+             height: 88px;
+             font: 400 16px/22px Rubik;
+             color: #363940;
+             margin-top: 15px;
+         }
+         /* Testimonials end */
+         /* Pricing start */
+         
+         .box-pricing {
+             margin-top: 250px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .pricing-1 {
+             width: 241px;
+             height: 415px;
+         }
+         
+         .list-pricing {
+             padding: 15px 0px 15px 20px;
+             background-color: #F6F7FA;
+             width: 241px;
+             height: 52px;
+             font: 400 14px/22px Rubik;
+             color: #363940;
+         }
+         
+         .list-pricing:nth-child(2) {
+             background-color: #fff;
+         }
+         
+         .list-pricing:nth-child(4) {
+             background-color: #fff;
+         }
+         
+         .list-pricing:nth-child(6) {
+             padding-top: 37px;
+             width: 241px;
+             height: 128px;
+             background-color: #fff;
+         }
+         
+         .list-pricing a {
+             font: 400 14px/22px Rubik;
+             color: #6E38F7;
+         }
+         
+         .pricing-2 {
+             margin-top: -211px;
+         }
+         
+         .pricing-2:nth-child(3) {
+             position: relative;
+             border-radius: 7px;
+             border: 2px solid blue;
+         }
+         
+         .pricing-2-span {
+             text-align: center;
+         }
+         
+         .pricing-2-span h5 {
+             margin-top: 20px;
+             font: 500 18px/22px Rubik;
+             color: #363940;
+             margin-bottom: 45px;
+         }
+         
+         .pricing-2-span h2 {
+             font: 500 32px/38px Rubik;
+             color: #363940;
+             margin-bottom: 44px;
+         }
+         
+         .pricing-2-span h6 {
+             font: 400 14px/22px Rubik;
+             color: #95A1BB;
+             margin-bottom: 20px;
+         }
+         
+         .items-pricing-2 {
+             text-align: center;
+         }
+         
+         .list-pricing-2 {
+             padding: 15px 0px 15px 20px;
+             background-color: #F6F7FA;
+             width: 241px;
+             height: 52px;
+             font: 400 14px/22px Rubik;
+             color: #363940;
+             text-align: center;
+         }
+         
+         .list-pricing-2 i {
+             font-size: 20px;
+         }
+         
+         .list-pricing-2 button {
+             text-transform: uppercase;
+             cursor: pointer;
+             transition: 0.5s;
+             width: 140px;
+             height: 36px;
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             border-radius: 5px;
+             border: 1px solid #6E38F7;
+             background-color: #fff;
+             color: #6E38F7;
+             margin-bottom: 20px;
+         }
+         
+         .list-pricing-2 button:hover {
+             background-color: #6E38F7;
+             color: #fff;
+             border-color: #6E38F7;
+         }
+         
+         .list-pricing-2 a {
+             color: #95A1BB;
+             font: 400 14px/22px Rubik;
+         }
+         
+         .list-pricing-2:nth-child(2) {
+             background-color: #fff;
+         }
+         
+         .list-pricing-2:nth-child(4) {
+             background-color: #fff;
+         }
+         
+         .list-pricing-2:nth-child(6) {
+             padding-top: 37px;
+             width: 241px;
+             height: 128px;
+             background-color: #fff;
+         }
+         
+         .list-pricing-2-btn button {
+             text-transform: uppercase;
+             margin-top: 37px;
+             margin-bottom: 20px;
+             cursor: pointer;
+             transition: all 0.5s;
+             width: 140px;
+             height: 36px;
+             letter-spacing: 2px;
+             border-radius: 5px;
+             border: 1px solid #6E38F7;
+             color: #fff;
+             background-color: #6E38F7;
+         }
+         
+         .list-pricing-2-btn button:hover {
+             color: #6E38F7;
+             background-color: #fff;
+         }
+         
+         .list-pricing-2-btn a {
+             color: #95A1BB;
+             font: 400 14px/22px Rubik;
+         }
+         
+         .pricing-2-span h3 {
+             left: 10px;
+             top: -13px;
+             letter-spacing: 2px;
+             border-radius: 5px;
+             position: absolute;
+             padding: 4px 10.2px 4px 15px;
+             font: 500 12px/20px Rubik;
+             color: #fff;
+             background-color: #6E38F7;
+         }
+         /* Pricing end */
+         /* Portflolio start */
+         
+         .box-portfolio {
+             margin-top: 100px;
+         }
+         
+         .portfoli-title {
+             margin-bottom: 40px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .portfoli-title h1 {
+             font: 500 36px/43px Rubik;
+             color: #363940;
+             margin-bottom: 20px;
+         }
+         
+         .portfoli-title p {
+             width: 410px;
+             height: 44px;
+             font: 400 16px/22px Rubik;
+             color: #95A1BB;
+         }
+         
+         .span-portfolio-2 button {
+             cursor: pointer;
+             transition: all 0.5s;
+             text-transform: uppercase;
+             width: 122px;
+             height: 44px;
+             border-radius: 5px;
+             border: 1px solid #6E38F7;
+             background-color: #fff;
+             color: #6E38F7;
+             letter-spacing: 2px;
+             font: 500 12/20px Rubik;
+         }
+         
+         .span-portfolio-2 button:hover {
+             background-color: #6E38F7;
+             color: #fff;
+         }
+         
+         .portfoli-img {
+             width: 100%;
+             height: 694px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .portfolio-img-left {
+             width: 300px;
+             height: 860px;
+         }
+         
+         .portfolio-img-left img {
+             margin-bottom: 18px;
+         }
+         
+         .portfolio-img-center {
+             margin: 0px 20px 0px 20px;
+             width: 300px;
+             height: 860px;
+         }
+         
+         .portfolio-img-center img {
+             margin-bottom: 20px;
+         }
+         
+         .portfolio-img-right img {
+             margin-bottom: 18px;
+         }
+         /* Portfolio end */
+         /* Content start */
+         
+         .box-content {
+             margin-top: 200px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .content-span h1 {
+             width: 300px;
+             height: 76px;
+             font: 500 32px/38px Rubik;
+             color: #363940;
+             margin-bottom: 20px;
+         }
+         
+         .content-span a {
+             font: 500 12px/22px Rubik;
+             color: #95A1BB;
+         }
+         
+         .box-content p {
+             font: 400 16px/22px Rubik;
+             color: #363940;
+             width: 620px;
+             height: 132px;
+         }
+         /* Content end */
+         /* Contackts start */
+         
+         .contacts {
+             text-align: center;
+             margin-top: 100px;
+         }
+         
+         .contacts h1 {
+             font: 500 36px/43px Rubik;
+             color: #363940;
+             margin-bottom: 20px;
+         }
+         
+         .contacts p {
+             font: 400 16px/22px Rubik;
+             color: #95A1BB;
+             margin-bottom: 40px;
+         }
+         
+         .fomr-input {
+             font: 400 16px/22px Rubik;
+             color: #95A1BB;
+             width: 220px;
+             height: 46px;
+             border-radius: 4px;
+             border: 1px solid #CAD1E1;
+             padding-left: 12px;
+         }
+         
+         .contacts button {
+             margin-top: 30px;
+             cursor: pointer;
+             transition: all 0.4s;
+             border-radius: 4px;
+             border: 1px solid #6E38F7;
+             background-color: #6E38F7;
+             color: #fff;
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             width: 160px;
+             height: 46px;
+         }
+         
+         .contacts button:hover {
+             background-color: #fff;
+             color: #6E38F7;
+         }
+         
+         .form-contacts textarea {
+             padding: 12px 0px 0px 15px;
+             font: 400 16px/22px Rubik;
+             color: #95A1BB;
+             max-width: 460px;
+             max-height: 122px;
+             width: 460px;
+             height: 122px;
+             border: 1px solid #CAD1E1;
+         }
+         
+         .fomr-input:nth-child(1) {
+             margin-right: 20px;
+             margin-bottom: 20px;
+         }
+         /* Contackts end */
+         /* slider start */
+         
+         .box-slider {
+             display: flex;
+             justify-content: space-between;
+             margin-top: 100px;
+         }
+         
+         .slider-span h1 {
+             font: 500 36px/43px Rubik;
+             color: #363940;
+         }
+         
+         .slider-span i {
+             cursor: pointer;
+             color: #95A1BB;
+             font-size: 40px;
+             cursor: pointer;
+         }
+         
+         .boxslider-2 {
+             margin-top: 41px;
+             display: flex;
+             justify-content: space-between;
+             width: 1400px;
+             height: 350px;
+             margin-left: -230px;
+         }
+         
+         .btn-blue {
+             margin-left: 425px;
+             margin-top: 40px;
+             cursor: pointer;
+             transition: all 0.5s;
+             width: 8px;
+             height: 8px;
+             border: 0;
+             border-radius: 50%;
+             background-color: #6E38F7;
+         }
+         
+         .btn-blue:hover {
+             background-color: #E1E5EE;
+         }
+         
+         .obichni {
+             margin-left: 10px;
+             margin-top: 40px;
+             cursor: pointer;
+             transition: all 0.3s;
+             width: 8px;
+             height: 8px;
+             border: 0;
+             border-radius: 50%;
+             background-color: #E1E5EE;
+         }
+         
+         .obichni:hover {
+             background-color: #6E38F7;
+         }
+         /* Slider end */
+         /* Praducsts start */
+         
+         .box-praducsts {
+             margin-top: 100px;
+             text-align: center;
+         }
+         
+         .box-praducsts h1 {
+             font: 500 36px/43px Rubik;
+             color: #363940;
+             margin-bottom: 20px;
+         }
+         
+         .box-praducsts p {
+             font: 400 16px/22px Rubik;
+             color: #95A1BB;
+             margin-bottom: 30px;
+         }
+         
+         .praducsts-link {
+             cursor: pointer;
+             text-transform: uppercase;
+             font: 500 12/20px Rubik;
+             color: #6E38F7;
+             margin-bottom: 40px;
+             letter-spacing: 2px;
+         }
+         
+         .praducsts-link-a {
+             cursor: pointer;
+             margin-left: 20px;
+             margin-bottom: 40px;
+             text-transform: uppercase;
+             font: 500 12/20px Rubik;
+             color: #95A1BB;
+         }
+         
+         .praducsts-3 {
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .box-praducsts-on {
+             width: 300px;
+             height: 300px;
+             margin-top: 40px;
+             position: relative;
+         }
+         
+         .box-praducsts-on a {
+             font: 500 12px/20px Rubik;
+             padding: 1px 7.69px 1px 6.31px;
+             border-radius: 5px;
+             position: absolute;
+             top: 15px;
+             right: 15px;
+             background-color: #6E38F7;
+             color: #fff;
+         }
+         
+         .box-praducsts-on p {
+             position: absolute;
+             font: 400 16px/22px Rubik;
+             color: #363940;
+             bottom: 20px;
+             left: 20px;
+         }
+         
+         .box-praducsts-on h5 {
+             position: absolute;
+             font: 500 12px/20px Rubik;
+             color: #6E38F7;
+             bottom: 20px;
+             left: 20px;
+         }
+         /* Praducsts end */
+         /* Team start */
+         
+         .box-team {
+             margin-top: 100px;
+         }
+         
+         .box-team h1 {
+             text-align: center;
+             font: 500 36px/43px Rubik;
+             color: #363940;
+             margin-bottom: 40px;
+         }
+         
+         .box-team-2 {
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .teams {
+             width: 300px;
+             height: 300px;
+             position: relative;
+         }
+         
+         .team-a {
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             color: #95A1BB;
+             position: absolute;
+             top: 30px;
+             left: 136px;
+             right: 136px;
+         }
+         
+         .team-a-2 {
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             color: #95A1BB;
+             position: absolute;
+             top: 30px;
+             left: 102px;
+             right: 102px;
+         }
+         
+         .team-a-3 {
+             font: 500 12px/20px Rubik;
+             letter-spacing: 2px;
+             color: #95A1BB;
+             position: absolute;
+             top: 30px;
+             left: 107px;
+             right: 107px;
+         }
+         
+         .title-team-1 {
+             font: 500 18px/22px Rubik;
+             color: #363940;
+             position: absolute;
+             bottom: 42px;
+             left: 79px;
+             right: 79px;
+         }
+         
+         .title-team-2 {
+             font: 500 18px/22px Rubik;
+             color: #363940;
+             position: absolute;
+             bottom: 42px;
+             left: 64px;
+             right: 63px;
+         }
+         
+         .title-team-3 {
+             font: 500 18px/22px Rubik;
+             color: #363940;
+             position: absolute;
+             bottom: 42px;
+             left: 81px;
+             right: 80px;
+         }
+         /* Team end */
+         /*Forms start*/
+         
+         .box-forms {
+             margin-top: 100px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .box-forms-img {
+             margin-right: -230px;
+         }
+         
+         .box-forms-form {
+             position: relative;
+             text-align: left;
+             margin-top: 200px;
+         }
+         
+         .form-forms a {
+             right: 20px;
+             top: 244px;
+             position: absolute;
+             text-align: center;
+             font: 400 14px/22px Rubik;
+             color: #6E38F7;
+             letter-spacing: 2px;
+         }
+         
+         .box-forms-form h1 {
+             color: #363940;
+             margin-bottom: 20px;
+             font: 500 36px/42px Rubik;
+         }
+         
+         .box-forms-form p {
+             width: 390px;
+             color: #95A1BB;
+             margin-bottom: 50px;
+             font: 400 16px/22px Rubik;
+         }
+         
+         .forms-email {
+             margin-bottom: 20px;
+             width: 380px;
+             height: 46px;
+             font: 400 16px/22px Rubik;
+             color: #95A1BB;
+             border-radius: 5px;
+             border: 1px solid #CAD1E1;
+             padding-left: 15px;
+         }
+         
+         .forms-submit {
+             margin-bottom: 20px;
+             transition: 0.5s;
+             cursor: pointer;
+             letter-spacing: 2px;
+             font: 500 12px/20px Rubik;
+             width: 380px;
+             height: 46px;
+             border: 0;
+             border-radius: 5px;
+             background-color: #6E38F7;
+             color: #fff;
+         }
+         
+         .forms-submit:hover {
+             background-color: #fff;
+             color: #6E38F7;
+             border: 1px solid #6E38F7;
+         }
+         
+         .box-forms-form h5 {
+             margin-left: 100px;
+             font: 400 14px/22px Rubik;
+             color: #363940;
+         }
+         /*Forms end*/
+         /* Statistics start */
+         
+         .box-statistics {
+             margin-top: 100px;
+         }
+         
+         .box-statistics-2 {
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .box-statistics h1 {
+             text-align: center;
+             font: 500 36px/43px Rubik;
+             margin-bottom: 20px;
+         }
+         
+         .box-statistics p {
+             color: #95A1BB;
+             text-align: center;
+             font: 400 16px/22px Rubik;
+             margin-bottom: 34px;
+         }
+         
+         .items-statistics {
+             float: left;
+             width: 35px;
+             height: 310px;
+             margin-right: 45px;
+         }
+         
+         .list-statistics {
+             font: 400 14px/22px Rubik;
+             color: #363940;
+             margin-bottom: 10px;
+         }
+         
+         .box-statistics-img {
+             float: left;
+             position: relative;
+             width: 825px;
+             height: 206px;
+             background: url(../img/rax.png) no-repeat;
+         }
+         
+         .box-on {
+             position: relative;
+             width: 860px;
+             height: 184px;
+             background-image: url(../img/ted.png);
+             background-repeat: no-repeat;
+         }
+         
+         .statistics-comment {
+             top: 2%;
+             left: 475px;
+             position: absolute;
+             font: 400 14px/22px Rubik;
+             padding: 10px 0px 10px 15px;
+             width: 147px;
+             height: 42px;
+             border-radius: 5px;
+             border: none;
+             background-color: #363940;
+             color: #fff;
+         }
+         
+         .krug {
+             left: 303px;
+             top: 110px;
+             position: absolute;
+             width: 16px;
+             height: 16px;
+         }
+         
+         .statistics-comment img {
+             margin-left: 50px;
+             margin-bottom: 0px;
+         }
+         
+         .items-2 {
+             margin-top: 17px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .list-2 {
+             color: #95A1BB;
+             margin-top: 17px;
+             font: 400 14px/22px Rubik;
+         }
+         /* Statistics end */
+         /*footer start*/
+         
+         .box-footer {
+             width: 100%;
+             height: 400px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .items-10 {
+             margin-bottom: 60px;
+             margin-top: 100px;
+             width: 140px;
+             height: 192px;
+         }
+         
+         .items-10 h1 {
+             font: 500 18px/22px Rubik;
+             color: #363940;
+             margin-bottom: 20px;
+         }
+         
+         .items-10 p {
+             font: 400 16px/22px Rubik;
+             color: #363940;
+         }
+         
+         .items-10:nth-child(1) {
+             width: 400px;
+             height: 130px;
+         }
+         
+         .list-10 a {
+             font-size: 16px;
+             font-weight: 100;
+             color: #363940;
+             ;
+         }
+         
+         .list-10 {
+             text-align: left;
+             font-weight: 300;
+             transition: 0.5s;
+             margin-top: 13px;
+             margin-bottom: 13px;
+             color: #363940;
+             font-size: 16px;
+         }
+         
+         .list-10 b {
+             padding-bottom: 20px;
+             color: #363940;
+         }
+         
+         .list-10 a:hover {
+             color: blue;
+         }
+         
+         .list-10:nth-child(1) {
+             color: #363940;
+             font-size: 18px;
+         }
+         
+         .strong {
+             font-size: 14px;
+             color: blue;
+         }
+         
+         .strong1 {
+             font-size: 24px;
+             color: #6E38F7;
+         }
+         /*footers end*/
